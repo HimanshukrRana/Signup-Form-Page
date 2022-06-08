@@ -55,7 +55,7 @@ const checkLength = (input, min, max) => {
     if (input.value.trim().length < min) {
         showerror(input, `The ${getfieldName(input.id)} should be at least ${min} characters`)
     } else if (input.value.trim().length > max) {
-        showerror(input, `the ${getfieldName(input.id)} should be less than ${max} character`)
+        showerror(input, `the ${getfieldName(input.id)} should be less than ${max} characters`)
     } else {
         showSuccess(input);
     }
